@@ -1,14 +1,11 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Aug 15 16:55:30 2017
-
-@author: miste
-"""
 
 import webbrowser
 import os
 import re
-
+"""
+This code takes all of the instantiated movies and formats them into a webpage
+"""
 # Styles and scripting for the page
 main_page_head = '''
 <head>

@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Aug 15 16:57:05 2017
-
-@author: miste
-"""
 
 import webbrowser
 
 class Movie():
+	"""
+	Create an Movie object complete with title, storyline, 
+	poster, trailer, release date, and Marvel phase
+	Method displays trailer
+	"""
 	def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube, date, director, phase):
 		self.title = movie_title
 		self.storyline = movie_storyline
