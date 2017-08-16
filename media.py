@@ -18,4 +18,8 @@ class Movie():
 		self.phase = phase
 
 	def show_trailer(self):
+		"""
+		Method that displays the trailer
+		When coupled with 'fresh_tomatoes', produces a pretty viewing area  
+		"""
 		webbrowser.open(self.trailer_youtube_url)
